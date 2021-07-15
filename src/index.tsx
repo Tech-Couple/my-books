@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './screens/Home';
+import reportWebVitals from './reportWebVitals';
+import Routes from './Routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root'),
 );
+
+reportWebVitals();
