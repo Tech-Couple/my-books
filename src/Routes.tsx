@@ -1,4 +1,3 @@
-// import React from "react";
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -8,7 +7,7 @@ import {
 import Home from './screens/Home';
 import My404Component from './screens/My404Component';
 
-const Routes = (): JSX.Element => (
+const Routes = (): React.ReactElement => (
   <Router>
       <Switch>
           <Route exact path="/" component={Home} />
