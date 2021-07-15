@@ -6,10 +6,10 @@
     "no-loops"
   ],
   "extends": [
-    "airbnb-base",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base"
   ],
   "rules": {
     "func-call-spacing": 2,
